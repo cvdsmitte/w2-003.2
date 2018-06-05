@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title></title>
+  </head>
+  <body>
+
+
+
+    <script>
+
+  function countChar(str) {
+    var cC = 0;
+    var textC = "k";
+    var textk = textC.split("");
+    for (var k=0; k<str.length;k++) {
+        if (textk.indexOf(str[k]) > -1) {
+             cC = cC + 1;
+          }
+      }
+       return cC;
+  }
+
+      console.log(countChar("kikker", "k"));
+
+    </script>
+
+
+  </body>
+</html>
